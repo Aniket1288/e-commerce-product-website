@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Product Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="back">
+  <!-- Header -->
+<header>
+  <div class="logo">MyShop</div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="checkout.html">Checkout</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="cart" onclick="showCart()">
+    🛒 <span id="cart-count">0</span>
+  </div>
+</header>
+  <!-- Product Section -->
+  <main>
+    <section class="products">
+      <!-- Product 1 -->
+      <div class="product" id="class">
+        <img src="shopping.webp" alt="Product Image">
+        <div class="product-details">
+          <h2 class="product-name">Nike Sneakers</h2>
+          <p class="product-desc">Comfortable running shoes with modern design.</p>
+          <h3>Price: ₹<span class="product-price">900 / 10% off</span></h3>
+          <br>
+          <button onclick="addToCart('Nike Sneakers', 800)">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product">
+        <img src="men-s-winter-hoodies-500x500.webp" alt="Product Image">
+        <div class="product-details">
+          <h2 class="product-name">Adidas Hoodie</h2>
+          <p class="product-desc">Stylish and warm hoodie for casual wear.</p>
+          <h3>Price: ₹<span class="product-price">1000 / 20% off</span></h3>
+          <br>
+          <button onclick="addToCart('Adidas Hoodie', 900)">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product">
+        <img src="photo-1624258919367-5dc28f5dc293.avif" alt="Product Image">
+        <div class="product-details">
+          <h2 class="product-name">Apple AirPods</h2>
+          <p class="product-desc">Wireless earbuds with crystal clear sound.</p>
+          <h3>Price: ₹<span class="product-price">12000 / 15%  off</span></h3>
+          <br>
+          <button onclick="addToCart('Apple AirPods', 10500)">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="cart-modal" class="cart-modal">
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <h3>Total: ₹<span id="cart-total">0</span></h3>
+    <button onclick="proceedToCheckout()">Proceed to Checkout</button>
+    <button onclick="closeCart()">Close</button>
+  </div>
+
+ <!-- Footer -->
+<footer>
+  <p>&copy; 2025 MyShop. All Rights Reserved.</p>
+  <div class="footer-links">
+    <a href="index.html">Home</a> |
+    <a href="checkout.html">Checkout</a> |
+    <a href="contact.html">Contact</a>
+  </div>
+  <div class="social-icons">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+  </div>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
+

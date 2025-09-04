@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+  <div class="logo">MyShop</div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="checkout.html">Checkout</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+  <br><br>
+  <main class="checkout-container">
+    <h2>Checkout</h2>
+
+    <!-- Cart Summary -->
+    <div id="checkout-cart"></div>
+    <h3>Total: ₹<span id="checkout-total">0</span></h3>
+
+    <!-- Customer Info -->
+    <form id="checkout-form" onsubmit="placeOrder(event)">
+      <h3>Customer Information</h3>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="text" placeholder="Shipping Address" required>
+      <input type="text" placeholder="City" required>
+      <input type="text" placeholder="Pincode" required>
+      
+      <button type="submit">Place Order</button>
+    </form>
+  </main>
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 MyShop. All Rights Reserved.</p>
+  <div class="footer-links">
+    <a href="index.html">Home</a> |
+    <a href="checkout.html">Checkout</a> |
+    <a href="contact.html">Contact</a>
+  </div>
+  <div class="social-icons">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
