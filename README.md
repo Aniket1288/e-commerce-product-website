@@ -1,97 +1,30 @@
+# 🛒 E-Commerce Website  
 
-# 🛍️ E-Commerce Product Page
+A fully functional **E-commerce website frontend** built using **HTML, CSS, and JavaScript**.  
+This project allows users to browse products, add them to a cart, proceed to checkout, and place an order with a success confirmation.  
 
-An attractive and fully functional **E-Commerce Product Page** built using **HTML, CSS, and JavaScript**.
-Users can browse multiple products, add them to a cart, view the cart, proceed to checkout, and place orders.
-
-![Project Screenshot](screenshots/homepage.png)
-*(Add your screenshot here — example: homepage, cart, checkout)*
+🔗 **Live Demo:** [https://myshop-ecommerce.netlify.app](http://aniket-ecommerce.netlify.app)  
 
 ---
 
-## 🔗 Live Demo
-
-👉 [Click Here to View Project](https://your-netlify-link.netlify.app/)
-
----
-
-## ✨ Features
-
-✅ Browse multiple products on the homepage
-✅ Add items to cart with quantity update
-✅ View cart with product details, subtotal, and total
-✅ Proceed to checkout with form validation
-✅ Order success page with “Continue Shopping” button
-✅ Cart saved in **localStorage** (persists after refresh)
-✅ Responsive design (works on desktop & mobile)
+## 📌 Features  
+ 
+- ✅ Add to Cart functionality  
+- ✅ Cart page with total price calculation  
+- ✅ Checkout page for order placement  
+- ✅ Order Success page with "Continue Shopping" button  
+- ✅ Contact Page with form  
+- ✅ Clean, modern UI  
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Technologies Used  
 
-* **HTML5** – Structure
-* **CSS3** – Styling & Responsive Design
-* **JavaScript (ES6)** – Functionality
-* **LocalStorage** – Cart Data Persistence
-* **Netlify** (for deployment)
-
----
-
-## 📸 Screenshots
-
-### 🏠 Homepage (Product Listing)
-
-![Homepage Screenshot](screenshots/homepage.png)
-
-### 🛒 Cart Page
-
-![Cart Screenshot](screenshots/cart.png)
-
-### 💳 Checkout Page
-
-![Checkout Screenshot](screenshots/checkout.png)
-
-### ✅ Order Success Page
-
-![Success Screenshot](screenshots/success.png)
-
----
-
-## 🚀 Getting Started
-
-### 1️⃣ Clone the repository
-
-```bash
-git clone https://github.com/your-username/ecommerce-product-page.git
-```
-
-### 2️⃣ Navigate into project folder
-
-```bash
-cd ecommerce-product-page
-```
-
-### 3️⃣ Open in browser
-
-Simply open `index.html` in your browser.
-
----
-
-## 📂 Project Structure
-
-```
-ecommerce-product-page/
-│── index.html        # Homepage (Product listing)
-│── cart.html         # Cart page
-│── checkout.html     # Checkout form
-│── success.html      # Order success page
-│── style.css         # Styling
-│── script.js         # Add to cart logic
-│── cart.js           # Cart functionality
-│── checkout.js       # Checkout form validation
-│── images/           # Product images
-│── screenshots/      # Screenshots for README
-```
+- **HTML5** – Page structure  
+- **CSS3** – Styling and layout  
+- **JavaScript (Vanilla JS)** – Cart and checkout logic  
+- **Font Awesome** – Icons  
+- **Netlify** – Hosting & deployment  
 
 ---
 
@@ -104,23 +37,14 @@ ecommerce-product-page/
 
 ---
 
-## 🤝 Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
----
 
 ## 👨‍💻 Author
 
 **Aniket More**
 
-* GitHub: [@your-username](https://github.com/your-username)
-* LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/your-profile)
+* GitHub:(https://github.com/Aniket1288)
+* LinkedIn:(https://www.linkedin.com/in/aniket-more-352b59338)
 
 ---
 
 💡 *If you like this project, don’t forget to ⭐ star the repo!*
-
----
-
-👉 Aniket, do you want me to also show you **how to deploy this project on Netlify (free hosting)** so you can add the **live link** to this README?
