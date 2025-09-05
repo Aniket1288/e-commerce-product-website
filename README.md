@@ -1,10 +1,3 @@
-# e-commerce-product-website
-Ohhh nice move Aniket 🚀🔥
-A **professional GitHub README** will make your project look much more polished and recruiter-friendly.
-
-Here’s a ready-to-use **README template** you can copy into your repo and adjust with your project’s screenshots and demo link 👇
-
----
 
 # 🛍️ E-Commerce Product Page
 
